@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Samochody</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="jquery.wanker-master/example/wanker.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="jquery.wanker-master/jquery.wanker.js"></script>
+    </head>
+    <body>
+        
+        <header id="header" class="transition">
+            <h1>Samochody</h1>
+        </header>
+        
+        
+        <div>
+            <img src="images/ferrarifromleft.png" alt="Ferrari" class="redcar carsize">
+        </div>
+
+
+        <nav>
+            <div class="row menu">
+                <div class="col-12">
+                    <ul class="nav_ul">
+                        <li class="col-3 active nav_li dropdown">
+                            <a href="#header" class="active dropbtn">Strona główna</a>
+                            <div class="dropdown-content">
+                                <a href="#Historia">Historia</a>
+                                <a href="#Napędzanie">Czym są napędzane?</a>
+                                <a href="#Segmenty">Segmenty samochodów</a>
+                            </div>
+                        </li>
+                        <li class="col-3 nav_li"><a href="formularz.html">Formularz</a></li>
+                        <li class="col-3 nav_li"><a href="tesla.html">Tesla</a></li>
+                        <li class="col-3 nav_li"><a href="galeria.html">Galeria Tesli</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+
+        <div id="powitanie" class="row"></div>
+        <script src="script_index.js"></script>
+
+        <div class="row post">
+            <div id="Historia" class="col-8">
+                <h3>Historia</h3>
+                Nad pojazdami napędzanymi parą myślano już w XVII wieku. W 1678 roku Ferdinand Verbiest miał zademonstrować taki pojazd cesarzowi chińskiemu, jednak nie ma na to żadnych dowodów. Dlatego za pierwszego konstruktora – wynalazcę pojazdu mechanicznego – uznaje się Francuza o nazwisku Nicolas-Joseph Cugnot, który zaprezentował swoje pionierskie dzieło napędzane silnikiem parowym w roku 1769.
+                W 1870 roku Austriak Siegfried Marcus skonstruował, nienadający się do powszechnego użytku, prototyp pojazdu mechanicznego z benzynowym silnikiem o zapłonie iskrowym. Z kolei inny konstruktor, Niemiec Carl Benz, zbudował swój trzykołowy automobil w roku 1885 (w 1886 uzyskał patent). W tych samych latach prace w dziedzinie silników spalinowych oraz pojazdów napędzanych takimi silnikami prowadzili wspólnie Wilhelm Maybach i Gottlieb Daimler. Nie wiadomo jednak dokładnie, kto, jako pierwszy, skonstruował zastosowany do napędu samochodów silnik o spalaniu wewnętrznym. 
+            </div>
+            <div>
+                <img src="images/benz.jpeg" alt="Benz Auto, 1886" title="Pojazd Carla Benz" class="col-4">    
+                <div>
+                    <a href="https://pl.wikipedia.org/wiki/Benz_Patent-Motorwagen_Nummer_1" class="link">Benz Patent-Motorwagen Nummer 1</a>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="row post">
+            <div id="Napędzanie" class="col-8">
+                <h3>Czym są napędzane?</h3>
+                Niezbędnym elementem samochodu jest źródło energii, wymagane przez silnik do jego działania.
+                W przypadku zastosowania silnika spalinowego źródłem energii może być:
+                <ul>
+                    <li>
+                        paliwo ciekłe, np. benzyna lub olej napędowy;
+                    </li>
+                    <li>
+                        paliwo gazowe w stanie ciekłym, np. LPG lub LNG;
+                    </li>
+                    <li>
+                        paliwo gazowe sprężone, np. CNG.
+                    </li>
+                </ul>
+                W przypadku zastosowania silnika elektrycznego źródłem energii może być:
+                <ul>
+                    <li>
+                        akumulator elektryczny,
+                    </li>
+                    <li>
+                        superkondensator grafenowy,
+                    </li>
+                    <li>
+                        ogniwo paliwowe.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <img src="images/ford_t.jpeg" alt="Ford Model T" title="Ford Model T" class="col-4">    
+                <div>
+                    <a href="https://pl.wikipedia.org/wiki/Ford_Model_T" class="link">Ford Model T</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <table>
+                <tr>
+                    <th>Cykl</th>
+                    <th>Typowe spalanie Toyoty Yaris II</th>
+                </tr>
+                <tr>
+                    <td class="cell">Miejski</td>
+                    <td class="cell">7,2 l/100 km</td>
+                </tr>
+                <tr>
+                    <td class="cell">Mieszany</td>
+                    <td class="cell">6,0 l/100 km</td>
+                </tr>
+                <tr>
+                    <td class="cell">W trasie</td>
+                    <td class="cell">5,3 l/100 km</td>
+                </tr>
+                
+            </table>
+        </div>
+        
+        <div id="Segmenty" class="row post">
+            <h3>Segmenty samochodów (Europa)</h3>
+            <div>
+                Dokumenty europejskie nie definiują poszczególnych klas, jedynie wskazują podział na klasy A, B, C, D, E, F, S, M, J, odnoszące się ogólnie do kryteriów wielkościowych, i podają ich angielskie nazwy. Wskazano jednocześnie, że granice pomiędzy segmentami są nieostre z powodów innych, niż sama wielkość samochodu, jak cena, wizerunek marki i wyposażenie. Segmenty zostały uznane za wskazówkę do pozycjonowania samochodów na rynku. Jednocześnie należy mieć na uwadze, że podział ten powstał, gdy dominowały tradycyjne typy nadwozia: sedan, hatchback, liftback, kombi, coupé, kabriolet, natomiast samochody typu van należą do jednego segmentu M, a SUV do segmentu J niezależnie od wielkości.
+            </div>
+            <br>
+            <br>    
+            <ul>
+                <li>
+                    <b>małe (mini, segment A) (ang. mini cars)</b> – samochody przeznaczone do jazdy miejskiej; cechują je niewielkie wymiary oraz niskie koszty eksploatacji. Niepraktyczne do poruszania się na trasach pozamiejskich. Mogą być dwu- lub czteroosobowe, pięcioosobowe zwykle przeznaczają trzy tylne miejsca dla dzieci. Przykłady: Citroën C1, Chevrolet Spark, Daewoo Matiz, Kia Picanto, Fiat Seicento/600/Panda/500, Peugeot 107, Škoda Citigo, Toyota Aygo,
+                    <ul>
+                        <li>
+                            <b>mikrosamochody</b> – zaliczana do segmentu A grupa samochodów o najmniejszych wymiarach i bardzo małych jednostkach napędowych. Samochody te są często kupowane przez firmy czy urzędy i wykorzystywane do poruszania się w obszarach miejskich przez ich pracowników. Ze względu na swoje cechy, w wielu krajach można nimi poruszać się na podstawie osobnego prawa jazdy. Przykłady: Aixam A751, Ligier Nova, Smart Fortwo, Toyota iQ, BMW Isetta, Mikrus MR-300, Peel P50
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>miejskie (segment B) (ang. small cars)</b> – małe samochody oferujące więcej aniżeli segment A miejsca dla pasażerów oraz praktyczny bagażnik. Cechy te pozwalają na poruszanie się nimi na trasach poza miastem, jednakże bardziej przeznaczone są do użytkowania w mieście jako "kolejny samochód" w rodzinie. Oprócz wersji hatchback, niektóre modele oferowane również w wersjach nadwoziowych sedan czy kombi. Przykłady: Chevrolet Aveo, Citroën C2/C3, Daewoo Lanos, Fiat Punto, Ford Fiesta, Hyundai i20, Kia Rio, Opel Corsa, Peugeot 207, Toyota Yaris, Škoda Fabia, Volkswagen Polo, SEAT Ibiza, Dacia Sandero, Dacia Logan, Renault Thalia
+                </li>
+                
+                <li>
+                    <b>kompaktowe (klasa niższa-średnia, segment C) (ang. medium cars)</b> – samochody średnich wymiarów przeznaczone do jazdy po mieście oraz na trasach. Oferują miejsce dla pięciu dorosłych osób oraz bagażnik, a także w miarę komfortowe warunki podróżowania. Wybierane zarówno jako pierwszy, jak i kolejny pojazd w rodzinie. Szeroka gama wersji nadwoziowych. Przykłady: Citroën C4, Chevrolet Cruze, Fiat Bravo, Ford Focus, Honda Civic, Hyundai i30, Kia Cee’d, Mazda 3, Opel Astra, Peugeot 308, Renault Mégane, Škoda Octavia, Toyota Corolla, Volkswagen Golf
+                    <ul>
+                        <li>
+                            <b>sportowe wersje (GTI – Grand Tourizmo Injection, RS - Racing Sport, np. Ford Escort RS2000 lub Volkswagena Golf GTI)</b> – bardzo mocne, sportowe wersje samochodów, których ponadprzeciętne osiągi nierzadko kwalifikują te wersje jako małe samochody sportowe. Przykładami są Ford Focus RS, Honda Civic Type-R, Mazda 3 MPS, Opel Astra OPC, Renault Mégane RS, Volkswagen Golf GTI/R32
+                        </li>
+                        <li>
+                            <b>kompaktowe "premium"</b> – samochody kompaktowe wyższej klasy. W porównaniu do typowych samochodów segmentu C są często lepiej wyposażone – a także droższe, choć nie zawsze przekłada się to na cechy praktycznie (ilość miejsca, komfort jazdy itp.). Przykłady: Alfa Romeo Giulietta, Audi A3, BMW serii 1, Mercedes-Benz klasy A (2012), Lancia Delta, Lexus CT, Infiniti Q30, Volvo V40
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>klasa średnia (samochody rodzinne, segment D) (ang. large cars)</b> – samochody zapewniające komfortowe warunki podróżowania pięciu dorosłym osobom (z bagażem) na dłuższych dystansach. Najczęściej w wersjach nadwoziowych sedan (lub bliskich wielkością sedanom hatchback) oraz kombi. Wiele z nich dostępnych jest w wersjach coupé, najczęściej jako sportowe, ekskluzywne wersje danego modelu. Przykłady: Citroën C5, Daewoo Nubira, Ford Mondeo, Honda Accord, Hyundai i40, Mazda 6, Opel Insignia/Vectra, Renault Laguna/Talisman, Peugeot 508, Toyota Avensis, Volkswagen Passat, Škoda Superb.
+                    <ul>
+                        <li>
+                            <b>klasa średnia "premium"</b> – nieoficjalna nazwa samochodów klasy średniej produkowanych przez marki kojarzone z luksusem. Często są one droższe i lepiej wyposażone (zarówno pod względem wygody, jak i techniki). Przykłady:Audi A4, BMW serii 3, Cadillac BLS, Jaguar XE, Mercedes klasy C, Lexus IS, Infiniti Q50, Saab 9-3, Volvo S60, Alfa Romeo 159.
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>klasa wyższa-średnia (segment E) (ang. executive cars)</b> – duże, komfortowe i bogato wyposażone samochody, których celem jest nie tylko użytkowanie przez rodziny, ale także jako reprezentacyjne limuzyny dla firm. Technika i wyposażenie w nich zawarte pozwala na długie podróże - a dane techniczne czołowych wersji mogą nierzadko konkurować nawet z typowymi samochodami sportowymi. Klasę podzielić można na dwie grupy:
+                    <ul>
+                        <li>
+                            topowe modele producentów samochodów niższej klasy, prezentujące ich nowinki techniczne i pełne wyposażenie (np. Alfa Romeo 166, Citroën C6, Honda Legend, Hyundai Genesis, Lancia Thesis, Peugeot 607, Renault Vel Satis.)
+                        </li>
+                        <li>
+                            modele producentów samochodów wyższej klasy, dla których segment E jest tylko częścią gamy pojazdów, zawierającą większość, choć nie wszystkie dostępne u producenta elementy wyposażenia (np. Audi A6, BMW serii 5, Volvo S80, Cadillac STS/CTS, Jaguar XF, Lexus GS, Mercedes klasy E).
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>luksusowe (segment F) (ang. luxury cars)</b> – limuzyny o najwyższym poziomie wyposażenia i najlepszych (często największych) silnikach. Ich cechy pozwalają na bardzo komfortową podróż zarówno kierowcy, jak i pasażerom. Używane często jako reprezentacyjne limuzyny dla szefów państw, firm itd., samochodami tymi nierzadko jeździ się lepiej jako pasażer tylnych siedzeń, a nie jako kierowca. Przykłady: Audi A8, BMW serii 7, Cadillac DTS, Jaguar XJ, Lexus LS, Mercedes klasy S.
+                    <ul>
+                        <li>
+                            <b>"ultra-luksusowe"</b> – określane jako "Segment F+" limuzyny, których wyposażenie, luksus i styl znacząco odbiegają od typowych przedstawicieli klasy samochodów luksusowych. Są to najczęściej bardzo drogie pojazdy, nierzadko ręcznie produkowane przez cenione na całym świecie fabryki. Przykłady: Maybach 57/62, Rolls-Royce Phantom, Bentley Continental/Bentley Mulsanne, Mercedes-Maybach S
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>sportowe – (segment S) (ang. sport coupes)</b> – klasa samochodów obejmująca bardzo dużą grupę pojazdów. Standardowo znajdują się tu pojazdy o nadwoziu dwu-, ewentualnie trzydrzwiowym coupé:
+                    <ul>
+                        <li>
+                            <b>luksusowe i sportowe coupé</b> - pojazdy będące osobnymi modelami, prezentujące sportowy i/lub ekstrawagancki styl coupé (np. BMW serii 6, Jaguar XK, CLK/CL, Infiniti Q60, Maserati GranTurismo, Porsche 911)
+                        </li>
+                        <li>
+                            <b>samochody supersportowe</b> - nazywane segmentem G+ pojazdy o bardzo wysokich osiągach, stworzone albo jako modele z założenia osiągające duże prędkości i wysokie przyśpieszenia, albo też jako drogowe wersje samochodów wyczynowych (Audi R8, Mercedes SLR, Bugatti 16.4 Veyron, Chevrolet Corvette, Ferrari 599 GTB Fiorano/Enzo, Lamborghini Aventador, Mercedes-AMG GT, Porsche 911 GT2/GT3/Turbo, Pagani Zonda, Saleen S7)
+                        </li>
+                    </ul>
+                    Coraz częściej jednak przypisuje się do tej grupy także sportowe wersje samochodów z innych segmentów, technicznie wyraźnie różniące się od swoich podstaw:
+                    <ul>
+                        <li>
+                            sportowe i ekstremalne wersje samochodów z niższych półek, nierzadko będące cywilnymi odpowiednikami pojazdów wyczynowych (np. Ford Focus RS, Volkswagen Golf R32, Subaru Impreza WRX STi, Mitsubishi Lancer Evolution)
+                        </li>
+                        <li>
+                            bardzo mocne, często usportowione wersje samochodów wyższej klasy (np. Audi RS4/RS6, BMW M3/M5, Lexus IS F, Mercedesy AMG, Jaguar XJR/XFR)
+                        </li>
+                        <li>
+                            czterodrzwiowe limuzyny, które już z założenia mają prezentować sportowy styl coupé (np. Aston Martin Rapide, Audi A7, Maserati Quattroporte, Mercedes-Benz CLS, Porsche Panamera, Volkswagen CC)
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>kabriolety (segment H)</b> – samochody ze składanym, twardym bądź miękkim dachem, lub też całkowicie pozbawione dachu. Mogą być one otwartymi wersjami samochodów zawartych w segmencie G, inne dostępne są wyłącznie jako kabriolety lub roadstery. Przykłady: Mazda MX-5, Audi TT Roadster, Alfa Romeo Spider, BMW serii 6 Cabrio, Ferrari F430 Spider, Honda S2000, Porsche 911 Carrera Cabrio, Toyota MR2.
+                </li>
+                
+                <li>
+                    <b>klasa samochodów terenowych (segment J) (ang. sport utility cars)</b> – samochody prezentujące cechy umożliwiające jazdę w terenie. Oprócz typowych samochodów terenowych, jak np. Jeep Wrangler, Jeep Cherokee, Land Rover Defender, Range Rover, Mercedes-Benz klasy G, Toyota Land Cruiser, do tej grupy zalicza się również samochody przypominające pojazdy terenowe, choć w praktyce są to przeznaczone do jazdy po twardych drogach:
+                    <ul>
+                        <li>
+                            <b>SUV</b> – duże, luksusowe samochody o kształtach samochodu terenowego, np. Audi Q7, BMW X5, Mercedes-Benz klasy GL/ML, Porsche Cayenne, Infiniti QX70, Chevrolet Traverse, Saab 9-7X, Volkswagen Touareg, Volvo XC90, Jeep Grand Cherokee, Kia Sorento.
+                        </li>
+                        <li>
+                            <b>SAV</b> - mniejsza odmiana SUV, np. Audi Q5, BMW X3, Citroën C-Crosser, Mercedes-Benz klasy GLK, Peugeot 4007, Volkswagen Tiguan, Volvo XC60, Chevrolet Equinox
+                        </li>
+                        <li>
+                            <b>cross-over</b> – samochody o cechach SUV kojarzone z segmentem C, np. Chevrolet Captiva, Renault Koleos, Nissan Qashqai, Peugeot 3008, Ford Kuga, Opel Antara, SsangYong Korando
+                        </li>
+                        <li>
+                            <b>SAC</b> – SUV o wyraźnym wyglądzie i zacięciu sportowym, np. BMW X6, Spyker Peking-To-Paris
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <b>vany (segment M) (ang. multi purpose cars)</b> – klasa obszernych samochodów mogących zabrać przynajmniej 5 osób wraz z dużym bagażem. W tej klasie również istnieje swego rodzaju podział, gdyż vany są zarówno dużymi, oddzielnymi modelami (Toyota Sienna, Chrysler Voyager, Mazda MPV, Volkswagen Sharan, Peugeot 807, Lancia Phedra, Renault Espace), jak i mniejszymi samochodami o wielu elementach wspólnych z samochodami segmentów D,C, a nawet niższych (Citroën Xsara Picasso, Opel Zafira, Ford C-Max, Škoda Roomster, Mercedes-Benz klasy B). Swego rodzaju podkategorią jest też typ luksusowych samochodów jednobryłowych, które łączą cechy vanów ze standardami limuzyn wyższej klasy (Mercedes-Benz klasy R)
+                </li>
+            </ul>
+        </div>
+        
+        
+        <div class="wanker" data-wanker>
+            <div class="wanker-content">
+            <h1>Nie zoomuj tylko czytaj!</h1>
+            </div>
+        </div>
+    
+        
+        <script>
+            $('[data-wanker]').wanker({delay: 200, duration: 1000});
+        </script>
+
+        <footer id="footer">
+            <p><b><a href="#header" id="footer-link">Wróć na górę</a></b></p>
+            <p><b>Autor: </b>Bartłomiej Kruszyński</p>
+        </footer>
+        <script src="script_index_footer.js"></script>
+    </body>
+</html>
